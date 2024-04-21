@@ -1,0 +1,28 @@
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+  
+body{ 
+	margin: 0;
+}        
+.header {
+  background-color: #15e6bc;
+  padding: 30px;
+}
+textarea {
+background-color: #d9d9d9;
+}
+ </style>   
+    </head>
+<div class="header">
+<p> <img
+        src="data:image/png;base64,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"
+        alt="memo"
+      /></p>
+  </div>
+<p>メモ欄</p>
+  <textarea style="width:100%" rows="50" cols="130">
+</textarea>
+  </html>
